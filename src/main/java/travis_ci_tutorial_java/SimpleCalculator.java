@@ -13,7 +13,7 @@ public class SimpleCalculator {
 		return a * b;
 	}
 	
-	public double divide(int a, int b) {
-		return Math.round((a / b) * 100) / 100.0;
+	public int divide(int a, int b) {
+		return a / b;
 	}
 }// end of SimpleCalculator class
